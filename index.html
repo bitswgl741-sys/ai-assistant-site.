@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Assistant</title>
+</head>
+<body>
+  <header>
+    <h1>AI Assistant</h1>
+    <p>Your personal conversational AI</p>
+    <hr>
+  </header>
+
+  <main>
+    <section id="chat-window">
+      <h2>Conversation</h2>
+      <div class="message bot">
+        <strong>Assistant:</strong>
+        <p>Hello! How can I assist you today?</p>
+      </div>
+      <div class="message user">
+        <strong>You:</strong>
+        <p>What is the weather today?</p>
+      </div>
+      <div class="message bot">
+        <strong>Assistant:</strong>
+        <p>The weather today is sunny with a high of 27°C.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="chat-input">
+      <h2>Ask a Question</h2>
+      <form id="message-form">
+        <label for="user-input">Your message:</label><br>
+        <textarea id="user-input" name="user-input" rows="4" cols="60" placeholder="Type your message here..."></textarea><br><br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2025 AI Assistant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
